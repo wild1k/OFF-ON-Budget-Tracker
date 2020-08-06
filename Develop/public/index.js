@@ -1,6 +1,7 @@
 let transactions = [];
 let myChart;
 
+
 fetch("/api/transaction")
   .then(response => {
     return response.json();
@@ -121,7 +122,7 @@ function sendTransaction(isAdding) {
       "Content-Type": "application/json"
     }
   })
-  .then(response => {    
+  .then(response => {
     return response.json();
   })
   .then(data => {
