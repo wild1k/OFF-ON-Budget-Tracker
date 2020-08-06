@@ -5,4 +5,4 @@ GIVEN a user is on Budget App without an internet connection WHEN the user input
 
 
 
-[!web budget tracker]url("Develop\public\read_me_img\read_me_budget_tracker.png");
+[!desktop budget]("Develop\public\read_me_img\read_me_budget_tracker.png");
